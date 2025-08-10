@@ -1,0 +1,78 @@
+info: Connected to the database. {"timestamp":"2025-08-09T18:39:26.949Z"}
+info: ✅ Connected to the database. {"timestamp":"2025-08-09T18:39:26.982Z"}
+info: ✅ Database synced. {"timestamp":"2025-08-09T18:39:28.998Z"}
+info: Connected to the database. {"timestamp":"2025-08-09T18:44:50.626Z"}
+info: ✅ Connected to the database. {"timestamp":"2025-08-09T18:44:50.706Z"}
+info: ✅ Database synced. {"timestamp":"2025-08-09T18:44:52.072Z"}
+info: Connected to the database. {"timestamp":"2025-08-09T18:45:17.405Z"}
+info: ✅ Connected to the database. {"timestamp":"2025-08-09T18:45:17.449Z"}
+info: ✅ Database synced. {"timestamp":"2025-08-09T18:45:18.522Z"}
+info: Connected to the database. {"timestamp":"2025-08-09T18:46:07.449Z"}
+info: ✅ Connected to the database. {"timestamp":"2025-08-09T18:46:07.505Z"}
+info: ✅ Database synced. {"timestamp":"2025-08-09T18:46:08.565Z"}
+info: Connected to the database. {"timestamp":"2025-08-09T18:49:45.552Z"}
+info: ✅ Connected to the database. {"timestamp":"2025-08-09T18:49:45.568Z"}
+info: ✅ Database synced. {"timestamp":"2025-08-09T18:49:47.237Z"}
+info: ✅ Connected to the database. {"timestamp":"2025-08-09T18:56:17.681Z"}
+info: ✅ Database synced. {"timestamp":"2025-08-09T18:56:19.273Z"}
+info: ✅ Connected to the database. {"timestamp":"2025-08-09T18:57:46.326Z"}
+info: ✅ Database synced. {"timestamp":"2025-08-09T18:57:48.006Z"}
+info: ✅ Connected to the database. {"timestamp":"2025-08-09T19:27:11.271Z"}
+info: ✅ Database synced. {"timestamp":"2025-08-09T19:27:13.054Z"}
+info: ✅ Connected to the database. {"timestamp":"2025-08-09T20:02:34.570Z"}
+info: ✅ Database synced. {"timestamp":"2025-08-09T20:02:35.462Z"}
+info: ✅ Connected to the database. {"timestamp":"2025-08-09T20:04:15.172Z"}
+info: ✅ Database synced. {"timestamp":"2025-08-09T20:04:16.249Z"}
+error: ❌ Database connection or sync failed: Cannot read properties of undefined (reading 'authenticate') {"stack":"TypeError: Cannot read properties of undefined (reading 'authenticate')\n    at _callee$ (E:\\Desktop_copy\\Projects\\vap\\backend\\src\\/index.js:31:21)\n    at s (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:75:16)\n    at Generator.<anonymous> (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:58:19)\n    at Generator.next (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:100:21)\n    at asyncGeneratorStep (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:7\n    at new Promise (<anonymous>)\n    at E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:14:12\n    at Object.<anonymous> (E:\\Desktop_copy\\Projects\\vap\\backend\\src\\/index.js:38:2)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module._compile (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\pirates\\lib\\index.js:129:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.newLoader [as .js] (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\pirates\\lib\\index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:159:12)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2025-08-10T07:53:19.545Z"}
+error: ❌ Database connection or sync failed: Cannot read properties of undefined (reading 'authenticate') {"stack":"TypeError: Cannot read properties of undefined (reading 'authenticate')\n    at _callee$ (E:\\Desktop_copy\\Projects\\vap\\backend\\src\\/index.js:31:21)\n    at s (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:75:16)\n    at Generator.<anonymous> (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:58:19)\n    at Generator.next (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:100:21)\n    at asyncGeneratorStep (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:7\n    at new Promise (<anonymous>)\n    at E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:14:12\n    at Object.<anonymous> (E:\\Desktop_copy\\Projects\\vap\\backend\\src\\/index.js:38:2)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module._compile (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\pirates\\lib\\index.js:129:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.newLoader [as .js] (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\pirates\\lib\\index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:159:12)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2025-08-10T08:00:15.345Z"}
+error: ❌ Database connection or sync failed: Cannot read properties of undefined (reading 'authenticate') {"stack":"TypeError: Cannot read properties of undefined (reading 'authenticate')\n    at _callee$ (E:\\Desktop_copy\\Projects\\vap\\backend\\src\\/index.js:31:21)\n    at s (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:75:16)\n    at Generator.<anonymous> (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:58:19)\n    at Generator.next (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:100:21)\n    at asyncGeneratorStep (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:7\n    at new Promise (<anonymous>)\n    at E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:14:12\n    at Object.<anonymous> (E:\\Desktop_copy\\Projects\\vap\\backend\\src\\/index.js:38:2)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module._compile (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\pirates\\lib\\index.js:129:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.newLoader [as .js] (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\pirates\\lib\\index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:159:12)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2025-08-10T08:00:32.472Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (E:\Desktop_copy\Projects\vap\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at E:\Desktop_copy\Projects\vap\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MySQLQueryInterface.select (E:\Desktop_copy\Projects\vap\backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (E:\Desktop_copy\Projects\vap\backend\node_modules\sequelize\src\model.js:1824:21) 
+    url - /vap/bhavcopy/bh 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-08-10T08:01:29.793Z"}
+error: ❌ Database connection or sync failed: Cannot read properties of undefined (reading 'authenticate') {"stack":"TypeError: Cannot read properties of undefined (reading 'authenticate')\n    at _callee$ (E:\\Desktop_copy\\Projects\\vap\\backend\\src\\/index.js:31:21)\n    at s (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:75:16)\n    at Generator.<anonymous> (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:58:19)\n    at Generator.next (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:100:21)\n    at asyncGeneratorStep (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:7\n    at new Promise (<anonymous>)\n    at E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:14:12\n    at Object.<anonymous> (E:\\Desktop_copy\\Projects\\vap\\backend\\src\\/index.js:38:2)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Module._compile (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\pirates\\lib\\index.js:129:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Object.newLoader [as .js] (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\pirates\\lib\\index.js:134:7)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (E:\\Desktop_copy\\Projects\\vap\\backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:159:12)\n    at Module._compile (node:internal/modules/cjs/loader:1369:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1427:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2025-08-10T08:03:00.290Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-10T08:19:31.749Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-10T08:19:33.182Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-10T08:19:33.205Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-10T08:20:15.570Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-10T08:20:16.575Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-10T08:20:16.598Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-10T08:22:51.339Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-10T08:22:54.276Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-10T08:23:39.846Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-10T08:23:42.790Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-10T08:23:43.063Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-10T08:24:41.069Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-10T08:24:45.788Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-10T08:24:45.900Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-10T08:26:24.362Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-10T08:26:25.887Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-10T08:26:25.927Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-10T08:27:25.590Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-10T08:27:31.711Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-10T08:27:31.775Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-10T08:27:31.960Z"}
+info: 🚀 Server running on http://http://localhost:8000/vap/ {"timestamp":"2025-08-10T08:27:31.983Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-10T08:33:28.536Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-10T08:33:29.575Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-10T08:33:29.597Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-10T08:33:29.714Z"}
+info: 🚀 Server running on http://http://localhost:8000/vap/ {"timestamp":"2025-08-10T08:33:29.722Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-10T08:34:22.172Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-10T08:34:23.228Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-10T08:34:23.259Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-10T08:34:23.375Z"}
+info: 🚀 Server running on http://http://localhost:8000/vap/ {"timestamp":"2025-08-10T08:34:23.382Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-10T17:19:57.748Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-10T17:20:02.262Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-10T17:20:02.347Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-10T17:20:02.704Z"}
+info: 🚀 Server running on http://http://localhost:8000/vap/ {"timestamp":"2025-08-10T17:20:02.772Z"}
