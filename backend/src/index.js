@@ -52,8 +52,8 @@ app.use(morgan('combined', { stream: logStream }));
     const HOST = process.env.APP_HOST || 'localhost';
 
     app.listen(PORT, () => {
-      logger.info(`🚀 Server running on http://${HOST}:${PORT}/vap/`);
-      console.log(`🚀 Server running on http://${HOST}:${PORT}/vap/`);
+      logger.info(`🚀 Server running on ${HOST}:${PORT}/vap/`);
+      console.log(`🚀 Server running on ${HOST}:${PORT}/vap/`);
     });
   } catch (error) {
     logger.error('❌ Database connection or sync failed:', error);
