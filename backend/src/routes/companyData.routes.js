@@ -81,8 +81,17 @@ const getPaginatedData = async (model, req, res) => {
     const { rows, count } = await model.findAndCountAll({
       where: whereClause,
       limit: parseInt(limit),
+<<<<<<< HEAD
       offset: parseInt(offset),
        order: [["", "DESC"]]
+=======
+<<<<<<< Updated upstream
+      offset: parseInt(offset)
+=======
+      offset: parseInt(offset),
+       order: [["date", "DESC"]]
+>>>>>>> Stashed changes
+>>>>>>> purva-dev
     });
 
     if (!rows.length) {
