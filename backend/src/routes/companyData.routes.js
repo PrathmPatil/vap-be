@@ -77,7 +77,12 @@ const getPaginatedDataBySymbol = async (model, req, res) => {
     const { rows, count } = await model.findAndCountAll({
       where: whereClause,
       limit: parseInt(limit),
+<<<<<<< Updated upstream
       offset: parseInt(offset)
+=======
+      offset: parseInt(offset),
+       order: [["date", "DESC"]]
+>>>>>>> Stashed changes
     });
 
     if (!rows.length) {
