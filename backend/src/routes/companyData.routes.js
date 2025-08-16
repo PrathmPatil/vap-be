@@ -81,7 +81,8 @@ const getPaginatedData = async (model, req, res) => {
     const { rows, count } = await model.findAndCountAll({
       where: whereClause,
       limit: parseInt(limit),
-      offset: parseInt(offset)
+      offset: parseInt(offset),
+       order: [["", "DESC"]]
     });
 
     if (!rows.length) {

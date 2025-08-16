@@ -54,7 +54,11 @@ export default function MarketSignalsPage() {
       setLoading(true);
       try {
         // http://localhost:8000/vap/company-data/formula/all-companies
-        
+        const response = await fetch( 'http://localhost:8000/vap/company-data/formula/all-companies');
+            const result = await response.json();
+    console.log("All Companies Formula Data:", result);
+  
+
         // Mock data - replace with actual API call
         const mockData: MarketSignalsData = {
           RallyAttemptDay: [
@@ -87,9 +91,10 @@ export default function MarketSignalsPage() {
 
         // Simulate API delay
         await new Promise(resolve => setTimeout(resolve, 1000));
-        setData(mockData);
+        // setData(mockData);
+        setData(result);
       } catch (error) {
-        console.error('Failed to fetch market signals:', error);
+        console.error("Error fetching company data:", error);
       } finally {
         setLoading(false);
       }

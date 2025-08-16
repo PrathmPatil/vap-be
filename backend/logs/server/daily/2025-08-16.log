@@ -173,3 +173,41 @@ info: ✅ stock_market database synced. {"timestamp":"2025-08-16T09:22:55.946Z"}
 info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-16T09:22:55.999Z"}
 info: ✅ bhavcopy database synced. {"timestamp":"2025-08-16T09:22:56.344Z"}
 info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-16T09:22:56.367Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-16T17:03:17.720Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-16T17:03:18.578Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-16T17:03:18.732Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-16T17:03:18.936Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-16T17:03:18.940Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (D:\Projects\vap-be\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\Projects\vap-be\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at MySQLQueryInterface.select (D:\Projects\vap-be\backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (D:\Projects\vap-be\backend\node_modules\sequelize\src\model.js:1824:21)
+    at async Promise.all (index 1)
+    at Function.findAndCountAll (D:\Projects\vap-be\backend\node_modules\sequelize\src\model.js:2183:27) 
+    url - /vap/bhavcopy/bh?page=1&limit=10 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-08-16T17:19:36.198Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (D:\Projects\vap-be\backend\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at D:\Projects\vap-be\backend\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at MySQLQueryInterface.select (D:\Projects\vap-be\backend\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (D:\Projects\vap-be\backend\node_modules\sequelize\src\model.js:1824:21)
+    at async Promise.all (index 1)
+    at Function.findAndCountAll (D:\Projects\vap-be\backend\node_modules\sequelize\src\model.js:2183:27) 
+    url - /vap/bhavcopy/bh?page=1&limit=10 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-08-16T17:19:36.320Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-16T17:26:35.587Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-16T17:26:35.890Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-16T17:26:35.942Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-16T17:26:36.072Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-16T17:26:36.078Z"}
