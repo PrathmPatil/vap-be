@@ -42,7 +42,7 @@ const Index = () => {
           </div>
 
           <BhavcopyTable
-            dynamicURL={"/bhavcopy"+String(typeStr)}
+            dynamicURL={"bhavcopy/"+String(typeStr)}
             title={category?.title || ""}
             description={category?.description || ""}
             columns={columns}

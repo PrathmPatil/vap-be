@@ -34,7 +34,7 @@ const sequelizeStockMarket = new Sequelize(
 
 // Initialize Sequelize for second DB: bhavcopy
 const sequelizeBhavcopy = new Sequelize(
-  process.env.BHAVCOPY_DB_NAME || 'bhavcopy_db',
+  process.env.BHAVCOPY_DB_NAME || 'bhavcopy',
   process.env.BHAVCOPY_DB_USER || process.env.DB_USER || 'root',
   process.env.BHAVCOPY_DB_PASS || process.env.PASSWORD || 'Patil@2000',
   {
