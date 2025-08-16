@@ -12,7 +12,7 @@ import { appErrorHandler, genericErrorHandler, notFound } from './middlewares/er
 import stockDataRoutes from './routes/stockData.routes.js';
 import companyDataRoutes from './routes/companyData.routes.js';
 import bhavcopyDataRoutes from './routes/bhavcopyDataRoutes.js';
-
+import formularoutes from './routes/formula.routes.js';
 import { sequelizeStockMarket, sequelizeBhavcopy } from './models/index.js';
 
 // Init app
@@ -34,7 +34,7 @@ app.use(morgan('combined', { stream: logStream }));
     console.log("Starting DB connections...");
     await sequelizeStockMarket.authenticate();
     logger.info('✅ Connected to stock_market database.');
-    await sequelizeStockMarket.sync({ alter: true });
+    await sequelizeStockMarket.sync();
     logger.info('✅ stock_market database synced.');
 
     console.log("Starting bhavcopy DB connect...");
@@ -52,13 +52,8 @@ app.use(morgan('combined', { stream: logStream }));
     const HOST = process.env.APP_HOST || 'localhost';
 
     app.listen(PORT, () => {
-<<<<<<< Updated upstream
       logger.info(`🚀 Server running on ${HOST}:${PORT}/vap/`);
       console.log(`🚀 Server running on ${HOST}:${PORT}/vap/`);
-=======
-      logger.info(🚀 Server running on ${HOST}:${PORT}/vap/);
-      console.log(🚀 Server running on ${HOST}:${PORT}/vap/);
->>>>>>> Stashed changes
     });
   } catch (error) {
     logger.error('❌ Database connection or sync failed:', error);
@@ -71,7 +66,7 @@ app.use(morgan('combined', { stream: logStream }));
 app.use('/vap/stocks', stockDataRoutes);
 app.use('/vap/company-data', companyDataRoutes);
 app.use('/vap/bhavcopy', bhavcopyDataRoutes);
-
+app.use('/vap/formula', formularoutes);
 app.get('/vap/welcome', (req, res) => {
   res.send('📂 Welcome to the Corporate Events Ingestion API.');
 });

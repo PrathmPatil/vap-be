@@ -1,0 +1,370 @@
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-14T20:19:52.618Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-14T20:20:03.701Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-14T20:20:03.827Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-14T20:20:04.024Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-14T20:20:04.098Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:00:23.863Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T14:00:45.078Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T14:00:45.099Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T14:00:45.195Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T14:00:45.608Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:34:24.412Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T14:34:28.971Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T14:34:28.983Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T14:34:29.066Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T14:34:29.071Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:35:10.354Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T14:35:14.741Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T14:35:14.751Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T14:35:14.845Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T14:35:14.851Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:35:22.679Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:35:26.884Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:35:30.823Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T14:35:36.293Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T14:35:36.305Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T14:35:36.392Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T14:35:36.397Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:40:11.095Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T14:40:16.367Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T14:40:16.381Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T14:40:16.464Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T14:40:16.471Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:41:34.269Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:41:39.218Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T14:41:43.710Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T14:41:43.722Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T14:41:43.815Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T14:41:43.823Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:42:52.644Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T14:42:57.246Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T14:42:57.260Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T14:42:57.380Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T14:42:57.396Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:43:33.360Z"}
+error: ❌ Database connection or sync failed: Too many keys specified; max 64 keys allowed {"name":"SequelizeDatabaseError","original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","stack":"Error: \n    at Query.run (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\dialects\\mysql\\query.js:46:25)\n    at D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:650:28\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at Function.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\model.js:1408:11)\n    at Sequelize.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:825:9)","timestamp":"2025-08-15T14:43:37.433Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:43:59.313Z"}
+error: ❌ Database connection or sync failed: Too many keys specified; max 64 keys allowed {"name":"SequelizeDatabaseError","original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","stack":"Error: \n    at Query.run (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\dialects\\mysql\\query.js:46:25)\n    at D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:650:28\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at Function.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\model.js:1408:11)\n    at Sequelize.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:825:9)","timestamp":"2025-08-15T14:44:02.081Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:44:31.105Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:44:44.625Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:44:51.113Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:44:59.267Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:45:18.963Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:45:25.698Z"}
+error: ❌ Database connection or sync failed: Too many keys specified; max 64 keys allowed {"name":"SequelizeDatabaseError","original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","stack":"Error: \n    at Query.run (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\dialects\\mysql\\query.js:46:25)\n    at D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:650:28\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at Function.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\model.js:1408:11)\n    at Sequelize.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:825:9)","timestamp":"2025-08-15T14:45:27.537Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:45:32.199Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:45:38.927Z"}
+error: ❌ Database connection or sync failed: Too many keys specified; max 64 keys allowed {"name":"SequelizeDatabaseError","original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","stack":"Error: \n    at Query.run (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\dialects\\mysql\\query.js:46:25)\n    at D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:650:28\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at Function.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\model.js:1408:11)\n    at Sequelize.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:825:9)","timestamp":"2025-08-15T14:45:41.617Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T14:46:59.196Z"}
+error: ❌ Database connection or sync failed: Too many keys specified; max 64 keys allowed {"name":"SequelizeDatabaseError","original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","stack":"Error: \n    at Query.run (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\dialects\\mysql\\query.js:46:25)\n    at D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:650:28\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at Function.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\model.js:1408:11)\n    at Sequelize.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:825:9)","timestamp":"2025-08-15T14:47:01.378Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T15:52:56.769Z"}
+error: ❌ Database connection or sync failed: Too many keys specified; max 64 keys allowed {"name":"SequelizeDatabaseError","original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","stack":"Error: \n    at Query.run (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\dialects\\mysql\\query.js:46:25)\n    at D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:650:28\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at Function.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\model.js:1408:11)\n    at Sequelize.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:825:9)","timestamp":"2025-08-15T15:53:09.305Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T15:53:16.743Z"}
+error: ❌ Database connection or sync failed: Too many keys specified; max 64 keys allowed {"name":"SequelizeDatabaseError","original":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_TOO_MANY_KEYS","errno":1069,"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","sqlMessage":"Too many keys specified; max 64 keys allowed","sqlState":"42000"},"sql":"ALTER TABLE `listed_companies` CHANGE `symbol` `symbol` VARCHAR(50) UNIQUE;","stack":"Error: \n    at Query.run (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\dialects\\mysql\\query.js:46:25)\n    at D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:650:28\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at Function.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\model.js:1408:11)\n    at Sequelize.sync (D:\\Projects\\vap-be\\backend\\node_modules\\sequelize\\src\\sequelize.js:825:9)","timestamp":"2025-08-15T15:53:27.691Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T16:03:53.255Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T16:03:59.954Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T16:04:00.007Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T16:04:00.019Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T16:04:00.107Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T16:04:00.176Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T16:04:24.398Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T16:04:24.443Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T16:04:24.466Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T16:04:24.555Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T16:04:24.559Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T16:05:01.716Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T16:05:01.755Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T16:05:01.781Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T16:05:01.875Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T16:05:01.879Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T16:31:46.577Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T16:31:46.614Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T16:31:46.647Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T16:31:46.844Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T16:31:46.904Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T16:38:45.107Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T16:38:45.139Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T16:38:45.150Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T16:38:45.204Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T16:38:45.208Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T16:42:52.197Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T16:42:52.241Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T16:42:52.257Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T16:42:52.345Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T16:42:52.350Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T16:44:12.994Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T16:44:13.034Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T16:44:13.051Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T16:44:13.136Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T16:44:13.141Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T16:46:22.090Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T16:46:22.129Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T16:46:22.147Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T16:46:22.232Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T16:46:22.237Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T16:47:38.148Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T16:47:38.186Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T16:47:38.207Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T16:47:38.283Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T16:47:38.287Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T16:52:32.638Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T16:52:32.671Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T16:52:32.689Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T16:52:32.781Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T16:52:32.788Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T16:56:10.826Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T16:56:10.861Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T16:56:10.874Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T16:56:10.969Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T16:56:10.979Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:01:12.627Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:01:12.665Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:01:12.687Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:01:12.781Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:01:12.786Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:01:45.056Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:01:45.097Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:01:45.116Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:01:45.201Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:01:45.211Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:03:30.401Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:03:30.441Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:03:30.464Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:03:30.544Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:03:30.548Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:04:09.173Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:04:09.216Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:04:09.235Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:04:09.316Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:04:09.325Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:04:36.716Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:04:36.764Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:04:36.773Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:04:36.855Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:04:36.861Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:07:47.878Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:07:47.909Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:07:47.927Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:07:48.016Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:07:48.021Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:11:20.262Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:11:20.309Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:11:20.318Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:11:20.420Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:11:20.425Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:13:53.102Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:13:53.153Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:13:53.162Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:13:53.230Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:13:53.235Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:18:56.817Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:18:56.859Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:18:56.893Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:18:57.019Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:18:57.025Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:19:03.309Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:19:03.432Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:19:03.444Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:19:03.528Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:19:03.536Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:24:04.492Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:24:04.525Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:24:04.549Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:24:04.653Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:24:04.659Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:27:37.049Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:27:37.085Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:27:37.117Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:27:37.208Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:27:37.215Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:27:43.569Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:27:43.612Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:27:43.624Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:27:43.704Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:27:43.709Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:27:49.471Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:27:49.510Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:27:49.528Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:27:49.620Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:27:49.628Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:48:51.267Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:48:51.313Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:48:51.328Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:49:12.422Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:49:12.455Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:49:12.464Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:49:12.517Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:49:12.521Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:49:25.678Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:49:25.710Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:49:25.724Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:49:25.775Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:49:25.779Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:51:51.202Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:51:51.235Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:51:51.247Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:51:51.297Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:51:51.301Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:52:44.413Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:52:44.462Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:52:44.476Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:52:44.559Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:52:44.563Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:53:51.566Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:53:51.607Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:53:51.705Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:53:51.819Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:53:51.825Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T17:54:15.317Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T17:54:15.364Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T17:54:15.375Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T17:54:15.452Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T17:54:15.457Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T18:03:35.926Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T18:03:35.962Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T18:03:35.973Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T18:03:36.031Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T18:03:36.034Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T18:04:04.569Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T18:04:04.609Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T18:04:04.648Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T18:04:04.733Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T18:04:04.739Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T18:04:36.061Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T18:04:36.102Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T18:04:36.120Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T18:04:36.186Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T18:04:36.191Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T18:05:37.339Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T18:05:37.379Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T18:05:37.402Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T18:05:37.482Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T18:05:37.489Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T18:06:59.416Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T18:06:59.456Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T18:06:59.474Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T18:06:59.544Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T18:06:59.549Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T18:10:15.289Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T18:10:15.885Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T18:10:15.895Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T18:10:15.981Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T18:10:15.987Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T18:11:12.014Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T18:11:12.054Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T18:11:12.064Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T18:11:12.124Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T18:11:12.128Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:700:11)
+    at ServerResponse.header (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:278:15)
+    at _callee5$ (D:\Projects\vap-be\backend\src\controllers\/stockdatacontroller.js:32:19)
+    at s (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:75:16)
+    at Generator.<anonymous> (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:58:19)
+    at Generator.next (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:100:21)
+    at asyncGeneratorStep (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /vap/company-data/ZYDUSLIFE?page=1&limit=10 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-08-15T18:11:53.149Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:700:11)
+    at ServerResponse.header (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:278:15)
+    at _callee5$ (D:\Projects\vap-be\backend\src\controllers\/stockdatacontroller.js:32:19)
+    at s (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:75:16)
+    at Generator.<anonymous> (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:58:19)
+    at Generator.next (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:100:21)
+    at asyncGeneratorStep (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /vap/company-data/ZYDUSLIFE?page=1&limit=10 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-08-15T18:11:53.251Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:700:11)
+    at ServerResponse.header (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:278:15)
+    at _callee5$ (D:\Projects\vap-be\backend\src\controllers\/stockdatacontroller.js:32:19)
+    at s (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:75:16)
+    at Generator.<anonymous> (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:58:19)
+    at Generator.next (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:100:21)
+    at asyncGeneratorStep (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /vap/company-data/ZYDUSLIFE?page=1&limit=10 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-08-15T18:11:53.488Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:700:11)
+    at ServerResponse.header (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:278:15)
+    at _callee5$ (D:\Projects\vap-be\backend\src\controllers\/stockdatacontroller.js:32:19)
+    at s (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:75:16)
+    at Generator.<anonymous> (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:58:19)
+    at Generator.next (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:100:21)
+    at asyncGeneratorStep (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /vap/company-data/ZYDUSLIFE?page=1&limit=10 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-08-15T18:12:08.946Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:700:11)
+    at ServerResponse.header (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:278:15)
+    at _callee5$ (D:\Projects\vap-be\backend\src\controllers\/stockdatacontroller.js:32:19)
+    at s (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:75:16)
+    at Generator.<anonymous> (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:58:19)
+    at Generator.next (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:100:21)
+    at asyncGeneratorStep (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /vap/company-data/ZYDUSLIFE?page=1&limit=10 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-08-15T18:12:08.967Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:700:11)
+    at ServerResponse.header (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Projects\vap-be\backend\node_modules\express\lib\response.js:278:15)
+    at _callee5$ (D:\Projects\vap-be\backend\src\controllers\/stockdatacontroller.js:32:19)
+    at s (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:75:16)
+    at Generator.<anonymous> (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:58:19)
+    at Generator.next (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:100:21)
+    at asyncGeneratorStep (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (D:\Projects\vap-be\backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) 
+    url - /vap/company-data/ZYDUSLIFE?page=1&limit=10 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2025-08-15T18:12:08.977Z"}
+info: ✅ Connected to stock_market database. {"timestamp":"2025-08-15T18:14:05.431Z"}
+info: ✅ stock_market database synced. {"timestamp":"2025-08-15T18:14:05.466Z"}
+info: ✅ Connected to bhavcopy database. {"timestamp":"2025-08-15T18:14:05.478Z"}
+info: ✅ bhavcopy database synced. {"timestamp":"2025-08-15T18:14:05.536Z"}
+info: 🚀 Server running on http://localhost:8000/vap/ {"timestamp":"2025-08-15T18:14:05.542Z"}

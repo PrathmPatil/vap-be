@@ -1,0 +1,190 @@
+info: ::1 - - [14/Aug/2025:20:23:00 +0000] "GET /vap/company-data/failed-symbols HTTP/1.1" 200 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:23:00 +0000] "GET /vap/company-data/failed-symbols HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:23:00 +0000] "GET /vap/company-data/listed-companies HTTP/1.1" 200 22962 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:23:00 +0000] "GET /vap/company-data/listed-companies?page=1&limit=10 HTTP/1.1" 200 2327 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:23:48 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10 HTTP/1.1" 200 1626 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:23:54 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:23:58 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:24:02 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:24:14 +0000] "GET /vap/company-data/20MICRONS?page=2&limit=10 HTTP/1.1" 200 1626 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:24:23 +0000] "GET /vap/company-data/20MICRONS?page=3&limit=10 HTTP/1.1" 200 1627 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:24:49 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2 HTTP/1.1" 200 1626 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:24:49 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=20 HTTP/1.1" 200 1626 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:24:55 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=202 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:24:58 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2023 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:25:19 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2023-0 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:25:19 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2023- HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:25:25 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2023-05 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:25:25 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2023-05- HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:25:33 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2023-05-0 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:25:40 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2023-05-02 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:25:48 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2023-0 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:25:48 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2023- HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:25:53 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2023 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:25:57 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=20 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:26:00 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=202 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:26:02 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:26:02 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:26:10 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2023-05 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:26:16 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2023-05- HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:26:24 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=2023-05-0 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:26:29 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=4 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:26:32 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=40 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:26:35 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:26:42 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=4 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:26:48 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10&search=40.642 HTTP/1.1" 404 43 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:27:28 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:27:32 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:27:36 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:05 +0000] "GET /vap/company-data/failed-symbols HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:05 +0000] "GET /vap/company-data/failed-symbols HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:05 +0000] "GET /vap/company-data/failed-symbols HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:05 +0000] "GET /vap/company-data/failed-symbols HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:05 +0000] "GET /vap/company-data/listed-companies?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:05 +0000] "GET /vap/company-data/listed-companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:05 +0000] "GET /vap/company-data/listed-companies?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:05 +0000] "GET /vap/company-data/listed-companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:21 +0000] "GET /vap/company-data/listed-companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:21 +0000] "GET /vap/company-data/failed-symbols HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:21 +0000] "GET /vap/company-data/listed-companies?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:21 +0000] "GET /vap/company-data/listed-companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:21 +0000] "GET /vap/company-data/failed-symbols HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:21 +0000] "GET /vap/company-data/listed-companies?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:21 +0000] "GET /vap/company-data/failed-symbols HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:21 +0000] "GET /vap/company-data/failed-symbols HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:24 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:27 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:30 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Aug/2025:20:39:33 +0000] "GET /vap/company-data/20MICRONS?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:16:37:42 +0000] "GET /vap/formula/TCS HTTP/1.1" 200 15825 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:16:39:03 +0000] "GET /vap/formula/TCS HTTP/1.1" 200 69 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:16:46:49 +0000] "GET /vap/formula/all-companies HTTP/1.1" 404 43 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:16:52:55 +0000] "GET /vap/formula/all-companies HTTP/1.1" 404 43 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:16:56:37 +0000] "GET /vap/formula/all-companies HTTP/1.1" 404 43 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:17:02:34 +0000] "GET /vap/formula/all-companies HTTP/1.1" 404 43 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:17:03:52 +0000] "GET /vap/formula/all-companies HTTP/1.1" 404 43 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:17:04:24 +0000] "GET /vap/formula/all-companies HTTP/1.1" 404 43 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:17:07:56 +0000] "GET /vap/formula/all-companies HTTP/1.1" 500 84 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:17:12:34 +0000] "GET /vap/formula/all-companies HTTP/1.1" 500 54 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:17:15:12 +0000] "GET /vap/formula/all-companies HTTP/1.1" 200 129 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:17:20:38 +0000] "GET /vap/formula/all-companies HTTP/1.1" 200 154 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:17:25:31 +0000] "GET /vap/formula/all-companies HTTP/1.1" 200 154 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:17:28:43 +0000] "GET /vap/formula/all-companies HTTP/1.1" 200 154 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:17:41:24 +0000] "GET /vap/company-data/failed-symbols HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:17:41:24 +0000] "GET /vap/company-data/failed-symbols HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:17:41:24 +0000] "GET /vap/company-data/listed-companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:17:41:24 +0000] "GET /vap/company-data/listed-companies?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:17:41:29 +0000] "GET /vap/company-data/listed-companies?page=1&limit=10&search=ZYDUSLIFE HTTP/1.1" 200 286 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:17:41:57 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 200 1695 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:17:42:09 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 200 1695 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:17:42:09 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 200 1695 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:17:42:14 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 200 1695 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:17:52:11 +0000] "GET /vap/formula/all-companies HTTP/1.1" 500 79 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:17:53:03 +0000] "GET /vap/formula/all-companies HTTP/1.1" 200 4824 "-" "PostmanRuntime/7.45.0"
+
+info: ::1 - - [15/Aug/2025:18:03:44 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:18:03:44 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:18:03:44 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:18:10:38 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 200 1695 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:18:10:50 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:18:10:57 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 200 1695 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:18:11:52 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 500 48 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:18:11:53 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 500 48 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:18:11:53 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 500 48 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:18:12:08 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 500 48 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:18:12:08 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 500 48 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Aug/2025:18:12:08 +0000] "GET /vap/company-data/ZYDUSLIFE?page=1&limit=10 HTTP/1.1" 500 48 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+

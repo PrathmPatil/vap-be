@@ -6,8 +6,12 @@ import {
   ListedCompanies
 } from '../models/index.js';
 import {Op, fn, col, where } from 'sequelize';
+import { getAnalyzeCompaniesData } from '../controllers/companiesController.js';
 
 const router = express.Router();
+const asyncHandler = fn => (req, res, next) =>
+  Promise.resolve(fn(req, res, next)).catch(next);
+
 
 // Pagination + Search utility
 const getPaginatedData = async (model, req, res) => {
@@ -41,7 +45,7 @@ const getPaginatedData = async (model, req, res) => {
     res.status(500).json({ success: false, error: err.message });
   }
 };
-const getPaginatedDataBySymbol = async (model, req, res) => {
+ export const getPaginatedDataBySymbol = async (model, req, res) => {
   try {
     const { page = 1, limit = 100, search = "" } = req.query;
     const { symbol: paramSymbol } = req.params || {};
@@ -118,6 +122,8 @@ router.get('/listed-companies', (req, res) =>
 router.get('/:symbol', (req, res) => {
   getPaginatedDataBySymbol(AllCompaniesData, req, res);
 });
+
+router.get("/formula/all-companies", getAnalyzeCompaniesData);
 
 
 export default router;

@@ -1,6 +1,6 @@
 
 import { AllCompaniesData, CompaniesData, FailedSymbols, ListedCompanies } from '../models/index.js';
-import { getPaginatedData } from '../services/stockdataservices.js';
+import { getPaginatedData, getPaginatedDataBySymbol } from '../services/stockdataservices.js';
 
 const asyncHandler = fn => (req, res, next) =>
   Promise.resolve(fn(req, res, next)).catch(next);
@@ -22,5 +22,12 @@ export const getFailedSymbols = asyncHandler(async (req, res) => {
 
 export const getListedCompanies = asyncHandler(async (req, res) => {
   const result = await getPaginatedData(ListedCompanies, req.query);
+  res.status(200).json({ success: true, ...result });
+});
+ 
+
+export const getCompanyBySymbol = (async (req, res) => {
+const result= await  getPaginatedDataBySymbol(AllCompaniesData, req, res);
+
   res.status(200).json({ success: true, ...result });
 });
