@@ -81,17 +81,11 @@ const getPaginatedData = async (model, req, res) => {
     const { rows, count } = await model.findAndCountAll({
       where: whereClause,
       limit: parseInt(limit),
-<<<<<<< HEAD
+
       offset: parseInt(offset),
        order: [["", "DESC"]]
-=======
-<<<<<<< Updated upstream
-      offset: parseInt(offset)
-=======
-      offset: parseInt(offset),
-       order: [["date", "DESC"]]
->>>>>>> Stashed changes
->>>>>>> purva-dev
+
+ 
     });
 
     if (!rows.length) {
@@ -127,8 +121,8 @@ router.get('/failed-symbols', (req, res) =>
 );
 router.get('/listed-companies', (req, res) =>
   getPaginatedData(ListedCompanies, req, res)
-);
-// get data based on company name(symbol)
+); 
+// get data based on company name(symbol) 
 router.get('/:symbol', (req, res) => {
   getPaginatedDataBySymbol(AllCompaniesData, req, res);
 });
